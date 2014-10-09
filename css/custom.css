@@ -61,6 +61,7 @@ body {
 	background-color: #F1F1F2;
 	/* logo color: #8DC23E; */
 	padding-bottom: 50px;
+	margin-bottom: 50px;
 }
 
 @media(min-width: 768px) {
