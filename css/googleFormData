@@ -10,3 +10,10 @@ Get input elements
 <input type="text" name="entry.982965512" value="" class="ss-q-short" id="entry_982965512" dir="auto" aria-label="Full Name  " title="">
 
 <input type="text" name="entry.57825701" value="" class="ss-q-short" id="entry_57825701" dir="auto" aria-label="Email Address  " title="">
+
+4.
+
+		   	    function validateEmail(email) {
+        			var re = /^(([^<>()[\]\\.,;:\s@\"]+(\.[^<>()[\]\\.,;:\s@\"]+)*)|(\".+\"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+        			return re.test(email);
+    			}

@@ -1,62 +1,156 @@
+/* pulled from yesware */
 
+body .header {
+background: #FAFBFB;
+position: fixed;
+z-index: 99999;
+top: 0px;
+border-bottom: 1px solid #eee;
+border-top: 10px solid #8dc23c;
+/*1306 x 80*/
+}
+
+body .fullscreen {
+width: 100%;
+float: left;
+}
+
+/* this will move the yesware logo */
+body .contain {
+max-width: 1260px;
+margin: 0 auto;
+padding: 0px 30px;
+position: relative;
+}
+
+body .logo img {
+width: 136px;
+height: auto;
+margin-bottom: 0;
+}
+
+body .logo {
+float: left;
+padding: 18px;
+}
+
+.btn-1 {
+color: #fff;
+border: 2px solid #f9a51e;
+background: #f9a51e;
+width: 200px;
+float: right;
+text-align: center;
+margin-right: 0px;
+-webkit-border-radius: 3px;
+border-radius: 3px;
+margin: 0 50px 0 0;
+font-weight: normal;
+font-style: normal;
+}
+
+
+body .btn-1:hover {
+color: #f9a51e;
+background: #fff;
+}
+
+/* pulled from yesware */
 
 body {
 	background-color: #F1F1F2;
 	/* logo color: #8DC23E; */
 }
 
-
-h1 {
-	font-size: 50px;
-}
-
-#appleLogo {
-	position: relative;
-	top: -11px;
-	left: -10px;
-	/* the position and top attributes allowed me to keep the apple logo aligned */
-}
-
-#androidLogo {
-	position: relative;
-	top: -5px;
-}
-
-#logo {
-	padding: 30px 0 20px 0;
-	/* background-color: #FAFBFB; */
-}
-
-#googleForm {
-	position: relative;
-	top: -10px;
-	left: -20px;
-}
-
 @media(min-width: 768px) {
-	.iOS_div {
-		padding: 60px 0 0 0;
+
+	#wrapper {
+		/* padding: 0 0 0 400px; */
+		padding: 130px 0 0 0;
+		width: 100%;
+		margin: 0 auto !important;
+		text-align: center;
 	}
 
-	.android_div {
-		padding: 60px 0 0 0;
+	.appleDiv {
+		width: 300px;
+		display: inline-block;
+		padding: 0 0 10px 0;
+		/* margin: 150px 30px 0 0; */
+		margin: 0 auto;
+
+	}
+
+	.androidDiv {
+		width: 300px;
+		padding: 0 0 10px 0;
+		/* margin: 150px 0 0 0; */
+
+		margin: 0 auto;
+
 	}
 }
 
 @media(max-width: 768px) {
-	.iOS_div {
-		padding: 30px 0 0 0;
+
+	#wrapper {
+		width: 100%;
+		padding: 60px 0 10px 0;
+		margin: 0 auto !important;
+		text-align: center;
 	}
 
-	.android_div {
-		padding: 30px 0 0 0;
+	.appleDiv {
+		padding: 0 0 10px 0;
+		margin-top: 30px;
+	}
+
+	.androidDiv {
+		padding: 0 0 10px 0;
+		margin-top: 30px;
+		margin-bottom: -300px;
 	}
 }
+
+/*
+#appleButton {
+	position: relative;
+	top: 130px;
+}
+*/
 
 .hero-unit {
 	background-color: white;
 }
 
-input {
-	width: 30px;
+.form-control {
+	width: 180px;
+	margin: 0 auto;
 }
+
+h1 {
+	font-size: 50px;
+}
+
+#iphoneInstructions {
+	padding: 0 20px 0 20px;
+}
+
+.appleDiv {
+	background-color: white;
+	border-radius: 10px;
+	text-align: center;
+	display: inline-block;
+	width: 300px;
+}
+
+.androidDiv {
+	background-color: white;
+	border-radius: 10px;
+	width: 300px;
+	text-align: center;
+	display: inline-block;
+}
+
+
+
